@@ -140,7 +140,7 @@ img{
 @media screen and (max-width: 768px) {
     .nav__menu{
         position: fixed;
-        top: var(--header-height);
+        top: -100%;
         left: 0;
         width: 100%;
         padding-top: 1.5rem;
@@ -150,4 +150,30 @@ img{
         box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
         border-radius: 0 0 1rem 1rem;
     }
+}
+
+.nav__item{
+   margin-bottom: var(--mb-3);
+}
+
+.nav__link{
+    color: var(--first-color-lighten);
+    transition: .3s;
+}
+
+.nav__link:hover{
+    color: var(--first-color-light);
+}
+
+.nav__logo, .nav__toggle{
+    color: var(--first-color-lighten);
+}
+
+.nav__toggle{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.show-menu{
+    top: var(--header-height);
 }
