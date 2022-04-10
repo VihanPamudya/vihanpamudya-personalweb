@@ -271,3 +271,11 @@ img {
     font-weight: var(--font-bold);
 }
 
+.home__greeting{
+    font-size: .813rem;
+}
+
+.home__profession{
+    font-size: .938rem;
+    margin-bottom: var(--mb-3);
+}
