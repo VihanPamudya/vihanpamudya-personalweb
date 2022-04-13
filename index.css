@@ -317,5 +317,8 @@ img {
 
 .button:hover{
   background-color: var(--first-color-dark);
-  
+}
+
+.button-light{
+  background-color: var(--first-color-light);
 }
