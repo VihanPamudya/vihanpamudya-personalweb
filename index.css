@@ -279,3 +279,43 @@ img {
     font-size: .938rem;
     margin-bottom: var(--mb-3);
 }
+
+.home__img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.home__img img{
+  width: 240px;
+}
+
+.home__social{
+  display: flex;
+  flex-direction: column;
+}
+
+.home__social-icon{
+  width: max-content;
+  font-size: 1.3rem;
+  margin-bottom: var(--mb-2);
+  color: var(--first-color-lighten);
+}
+
+.home__social-icon:hover{
+  color: var(--first-color-light);
+}
+
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--first-color-lighten);
+  padding: .75rem 1rem;
+  border-radius: .25rem;
+  transition: .3s;
+}
+
+.button:hover{
+  background-color: var(--first-color-dark);
+  
+}
