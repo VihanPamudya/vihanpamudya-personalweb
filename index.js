@@ -57,3 +57,16 @@ function scrollTop() {
   else scrollTop.classList.remove("show-scroll");
 }
 window.addEventListener("scroll", scrollTop);
+
+const mixer = mixitup('.portfolio__container', {
+  selectors: {
+    target: ".portfolio__content",
+  },
+  animation: {
+    duration: 400,
+  },
+});
+
+const linkPortfolio = document.querySelectorAll('portfolio__item')
+
+
