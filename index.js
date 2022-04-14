@@ -58,7 +58,7 @@ function scrollTop() {
 }
 window.addEventListener("scroll", scrollTop);
 
-const mixer = mixitup('.portfolio__container', {
+const mixer = mixitup(".portfolio__container", {
   selectors: {
     target: ".portfolio__content",
   },
@@ -67,6 +67,11 @@ const mixer = mixitup('.portfolio__container', {
   },
 });
 
-const linkPortfolio = document.querySelectorAll('portfolio__item')
-
-
+const linkPortfolio = document.querySelectorAll("portfolio__item");
+function activePortfolio() {
+  if (linkPortfolio) {
+    linkPortfolio.forEach((l) => l.classList.remove("active-portfolio"));
+    this.classList.add("active-portfolio");
+  }
+}
+linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
