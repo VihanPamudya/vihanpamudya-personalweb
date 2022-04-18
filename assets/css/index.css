@@ -513,37 +513,37 @@ body.dark-theme{
     width: 90%;
 }
 .skills__css{
-    width: 70%;
+    width: 80%;
 }
 .skills__js{
-    width: 60%;
+    width: 70%;
 }
 .skills__react{
-    width: 50%;
+    width: 80%;
 }
 .skills__sb{
-    width: 50%;
+    width: 70%;
 }
 .skills__nj{
-    width: 40%;
+    width: 70%;
 }
 .skills__ai{
-    width: 70%;
+    width: 60%;
 }
 .skills__figma{
     width: 90%;
 }
-.skills__ps{
-    width: 80%;
-}
-.skills__adobexd{
-    width: 70%;
-}
 .skills__c{
     width: 70%;
 }
+.skills__mdb{
+  width: 70%;
+}
+.skills__msql{
+  width: 60%;
+}
 .skills__java{
-    width: 50%;
+    width: 70%;
 }
 .skills__sql{
     width: 80%;
