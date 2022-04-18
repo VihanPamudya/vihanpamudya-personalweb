@@ -1,4 +1,4 @@
-@import url("@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap ");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
   --header-height: 3rem;
@@ -226,7 +226,9 @@ img {
   border-radius: 0.5rem;
   z-index: var(--z-tooltip);
   transition: 0.4s;
+  visibility: hidden;
 }
+
 
 .scrolltop:hover {
   background-color: var(--first-color);
