@@ -1232,4 +1232,7 @@ body.dark-theme{
     .qualification__container {
       column-gap: 6rem;
     }
+    .qualification__content{
+      width: 400px;
+    }
 }
