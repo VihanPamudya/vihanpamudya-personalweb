@@ -779,7 +779,7 @@ body.dark-theme{
 }
 
 .active-portfolio {
-  color: var(--first-color-dark);
+  color: red;
   font-weight: var(--font-semi-bold);
 }
 
@@ -1031,7 +1031,7 @@ body.dark-theme{
     .about__container,
     .skills__container,
     .qualification__container,
-    .portfolio__content,
+    .portfolio__container,
     .project__container,
     .contact__container,
     .footer__container{
@@ -1055,6 +1055,9 @@ body.dark-theme{
         margin: 0;
     }
 
+    .portfolio__container{
+      grid-template-columns: repeat(3, 1fr);
+    }
     .section{
         padding: 6rem 0 2rem;
     }
@@ -1166,12 +1169,6 @@ body.dark-theme{
 
     .services__modal--content{
         width: 450px;
-    }
-    .portfolio__img{
-        width: 320px;
-    }
-    .portfolio__content{
-        align-items: center;
     }
     .project{
         text-align: initial;

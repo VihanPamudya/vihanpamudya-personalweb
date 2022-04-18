@@ -176,3 +176,12 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+const linkPortfolio = document.querySelectorAll("portfolio__item");
+function activePortfolio() {
+  if (linkPortfolio) {
+    linkPortfolio.forEach((l) => l.classList.remove("active-portfolio"));
+    this.classList.add("active-portfolio");
+  }
+}
+linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
