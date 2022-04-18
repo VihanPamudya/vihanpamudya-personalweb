@@ -73,7 +73,7 @@ tabs.forEach(tab=>{
 
 /*==================== SERVICES MODAL ====================*/
 const modalViews = document.querySelectorAll('.services__modal'),
-      modalBtns = document.querySelectorAll('.services__button'),
+      modalBtns = document.querySelectorAll('.button'),
       modalCloses = document.querySelectorAll('.service__modal-close')
 
 let modal = function(modalClick){
