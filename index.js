@@ -102,10 +102,10 @@ gsap.from(".nav__item", {
   ease: "expo.out",
   stagger: 0.2,
 });
-gsap.from("", {
+gsap.from(".home__social-icon", {
   opacity: 0,
   duration: 2,
-  delay: 1.8,
+  delay: 2.3,
   y: 25,
   ease: "expo.out",
   stagger: 0.2,
