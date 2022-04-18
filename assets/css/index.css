@@ -134,6 +134,14 @@ body.dark-theme{
     height: auto;
   }
 
+  .bd-container {
+    max-width: 1024px;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+  
+
   .bd-grid {
   display: grid;
   gap: 1.5rem;
@@ -1241,5 +1249,10 @@ body.dark-theme{
     }
     .contact__inputs{
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .bd-container {
+      margin-left: 17rem;
+      margin-right: 17rem;
     }
 }
