@@ -378,6 +378,19 @@ body.dark-theme{
     background-color: var(--first-color-alt);
 }
 
+.button_know{
+  display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: .6rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
+}
+
+.button_know:hover{
+  background-color: var(--first-color-alt);
+}
+
 .button__icon{
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
@@ -976,6 +989,7 @@ body.dark-theme{
         grid-template-columns: .25fr 3fr;
     }
 
+    
     .home__blob{
         width: 180px;
     }
@@ -1020,8 +1034,6 @@ body.dark-theme{
         order: 1;
         justify-self: center;
     }
-
-    
 
     .about__container,
     .skills__container,
@@ -1250,17 +1262,5 @@ body.dark-theme{
     }
     .qualification__content{
       width: 400px;
-    }
-    .button_know{
-      display: inline-block;
-        background-color: var(--first-color);
-        color: #FFF;
-        padding: .6rem;
-        border-radius: 0.5rem;
-        font-weight: var(--font-medium);
-    }
-    
-    .button_know:hover{
-      background-color: var(--first-color-alt);
     }
 }
