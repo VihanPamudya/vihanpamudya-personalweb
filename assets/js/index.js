@@ -177,6 +177,16 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+
+const mixer = mixitup(".portfolios__container", {
+  selectors: {
+    target: ".portfolio__content",
+  },
+  animation: {
+    duration: 400,
+  },
+});
+
 const linkPortfolio = document.querySelectorAll("portfolio__item");
 function activePortfolio() {
   if (linkPortfolio) {

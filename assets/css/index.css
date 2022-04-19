@@ -780,7 +780,7 @@ body.dark-theme{
 }
 
 .active-portfolio {
-  color: red;
+  color: var(--first-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -1012,6 +1012,18 @@ body.dark-theme{
     .project__img{
         width: 200px;
     }
+    
+}
+
+@media screen and (min-width:350px){
+
+  .portfolio__content{
+    margin-right: 10%;
+  }
+
+  .portfolio__item{
+    margin: 25px;
+  }
 }
 
 /* For medium devices */
@@ -1028,7 +1040,6 @@ body.dark-theme{
         order: 1;
         justify-self: center;
     }
-
     .about__container,
     .skills__container,
     .qualification__container,
@@ -1256,5 +1267,9 @@ body.dark-theme{
     }
     .portfolios__container{
       width: 950px;
+    }
+
+    .portfolio__content{
+      margin-right: 0;
     }
 }
