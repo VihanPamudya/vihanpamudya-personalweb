@@ -766,9 +766,9 @@ body.dark-theme{
 }
 
 .portfolio__title {
-  font-size: var(--h3-font-size);
+  font-size: 1.15rem;
   color: var(--first-color);
-  margin: var(--mb-2) 0;
+  margin: var(--mb-1-5) 0;
 }
 
 .portfolio__content:hover {
@@ -811,7 +811,7 @@ body.dark-theme{
 }
 
 .project__img{
-    width: 400px;
+    width: 300px;
     justify-self: center;
 }
 
