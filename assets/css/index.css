@@ -578,6 +578,7 @@ body.dark-theme{
 
 /*==================== QUALIFICATION ====================*/
 .qualification__container {
+
   row-gap: 2.5rem;
 }
 
@@ -1031,7 +1032,7 @@ body.dark-theme{
     .about__container,
     .skills__container,
     .qualification__container,
-    .portfolio__container,
+    .portfolios__container,
     .project__container,
     .contact__container,
     .footer__container{
@@ -1055,7 +1056,7 @@ body.dark-theme{
         margin: 0;
     }
 
-    .portfolio__container{
+    .portfolios__container{
       grid-template-columns: repeat(3, 1fr);
     }
     .section{
@@ -1252,5 +1253,8 @@ body.dark-theme{
     }
     .qualification__content{
       width: 400px;
+    }
+    .portfolios__container{
+      width: 950px;
     }
 }
