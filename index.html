@@ -653,12 +653,27 @@
       </div>
 
       <div class="portfolios__container bd-grid">
-       <div class="portfolio__content mix web">
+       <div class="portfolio__content mix ux">
           <a href="#"><img
               src="assets/img/Vihan Gammanpila.jpg"
               class="portfolio__img" alt="" /></a>
           <div class="portfolio__data">
-            <span class="portfolio__subtitle">Web development</span>
+            <span class="portfolio__subtitle">Webs development</span>
+            <a href="#">
+              <h2 class="portfolio__title">
+                vdsvfdddddddddddddddd ddddddddddddddd
+              </h2>
+            </a>
+            <a href="#" class="button_know">View Details</a>
+          </div>
+        </div>
+
+        <div class="portfolio__content mix app">
+          <a href="#"><img
+              src="assets/img/Vihan Gammanpila.jpg"
+              class="portfolio__img" alt="" /></a>
+          <div class="portfolio__data">
+            <span class="portfolio__subtitle">Ux design</span>
             <a href="#">
               <h2 class="portfolio__title">
                 vdsvfdddddddddddddddd ddddddddddddddd
@@ -683,7 +698,7 @@
           </div>
         </div>
 
-        <div class="portfolio__content mix web">
+        <div class="portfolio__content mix ui">
           <a href="#"><img
               src="assets/img/Vihan Gammanpila.jpg"
               class="portfolio__img" alt="" /></a>
@@ -698,7 +713,7 @@
           </div>
         </div>
 
-        <div class="portfolio__content mix web">
+        <div class="portfolio__content mix ui">
           <a href="#"><img
               src="assets/img/Vihan Gammanpila.jpg"
               class="portfolio__img" alt="" /></a>
@@ -840,6 +855,19 @@
   <script src="assets/js/swiper-bundle.min.js"></script>
   <script src="assets/js/index.js"></script>
   <script src="assets/js/mixitup.min.js"></script>
+  <script type="text/javascript">
+    var mixer = mixitup('.portfolios__container');
+    var mixer = mixitup(containerEl);
+    var mixer = mixitup(containerEl, {
+    selectors: {
+        target: '.blog-item'
+    },
+    animation: {
+        duration: 300
+    }
+});
+  </script>
+
 </body>
 
 </html>
