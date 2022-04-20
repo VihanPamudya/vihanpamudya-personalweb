@@ -5,7 +5,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 142; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -627,7 +627,7 @@ img {
 .services__data {
   position: relative;
   padding: 2rem 1rem;
-  background-color: #fff;
+  background-color: var(--container-color);
   border-radius: 0.5rem;
   text-align: center;
   transition: 0.4s;
@@ -750,7 +750,7 @@ img {
 }
 
 .portfolio__content {
-  background-color: #fff;
+  background-color: var(--container-color);
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(174, 190, 205, 0.3);
@@ -832,7 +832,7 @@ img {
 }
 
 .contact__box {
-  background-color: #fff;
+  background-color: var(--container-color);
   border-radius: 0.5rem;
   padding: 1.5rem;
   text-align: center;
@@ -891,7 +891,7 @@ img {
 
 /*==================== FOOTER ====================*/
 .footer {
-  background-color: var(--first-color);
+  background-color: var(--first-color-second);
   color: white;
   text-align: center;
 }
