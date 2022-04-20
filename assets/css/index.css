@@ -136,7 +136,6 @@ body.dark-theme{
 
   .bd-container {
     max-width: 1024px;
-    width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
   }
@@ -1213,6 +1212,7 @@ body.dark-theme{
     }
     .home__blob{
         width: 320px;
+        margin-right: -170px;
     }
     .home__social{
         transform: translateX(-6rem);
@@ -1264,4 +1264,5 @@ body.dark-theme{
     .footer__container {
       padding: 3rem 0;
     }
+
 }
