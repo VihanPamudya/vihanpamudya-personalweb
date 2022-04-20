@@ -387,7 +387,7 @@ body.dark-theme{
     cursor: pointer;
 }
 
-.button_know:hover{
+.button_know:hover {
   background-color: var(--first-color-alt);
 }
 
@@ -761,14 +761,16 @@ body.dark-theme{
 }
 
 .portfolio__subtitle {
-  font-size: var(--small-font-size);
-  color: var(--first-color-light);
+  font-size: 1.15rem;
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
 }
 
 .portfolio__title {
-  font-size: 1.15rem;
-  color: var(--first-color);
-  margin: var(--mb-1-5) 0;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin: var(--mb-1) 0;
+  font-weight: normal;
 }
 
 .portfolio__content:hover {
@@ -783,7 +785,6 @@ body.dark-theme{
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
 }
-
 
 
 /*==================== PROJECT IN MIND ====================*/
