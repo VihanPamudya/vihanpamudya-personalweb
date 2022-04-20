@@ -384,6 +384,7 @@ body.dark-theme{
     padding: .6rem;
     border-radius: 0.5rem;
     font-weight: var(--font-medium);
+    cursor: pointer;
 }
 
 .button_know:hover{
