@@ -84,6 +84,7 @@ body.dark-theme{
 .nav__btns{
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 
 .change-theme{
@@ -739,9 +740,16 @@ body.dark-theme{
   margin-bottom: var(--mb-3);
 }
 
+
+
 .portfolio__item {
   margin: 0 var(--mb-2);
   cursor: pointer;
+}
+
+.portfolio__item:hover{
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
 }
 
 .portfolio__content {

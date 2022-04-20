@@ -172,3 +172,6 @@ function activePortfolio() {
   }
 }
 linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
+
+
+
