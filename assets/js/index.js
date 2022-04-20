@@ -94,20 +94,6 @@ modalCloses.forEach((modalClose)=>{
     })
 })
 
-/*==================== PORTFOLIO SWIPER  ====================*/
-var Swiper = new Swiper(".portfolio__container", {
-    cssMode: true,
-    loop: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-
 /*==================== TESTIMONIAL ====================*/
 
 
@@ -181,8 +167,8 @@ themeButton.addEventListener('click', () => {
 const linkPortfolio = document.querySelectorAll("portfolio__item");
 function activePortfolio() {
   if (linkPortfolio) {
-    linkPortfolio.forEach((l) => l.classList.remove("active-portfolio"));
-    this.classList.add("active-portfolio");
+    linkPortfolio.forEach((l) => l.classList.remove("active_portfolio"));
+    this.classList.add("active_portfolio");
   }
 }
 linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));

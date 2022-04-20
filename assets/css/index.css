@@ -779,7 +779,7 @@ body.dark-theme{
   transform: scale(1.02);
 }
 
-.active-portfolio {
+.active_portfolio {
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
 }
@@ -1023,12 +1023,8 @@ body.dark-theme{
 
 @media screen and (min-width:350px){
 
-  .portfolio__content{
-    margin-right: 10%;
-  }
-
   .portfolio__item{
-    margin: 25px;
+    margin: 17px;
   }
 }
 
@@ -1060,6 +1056,10 @@ body.dark-theme{
         grid-template-columns: .6fr;
         justify-content: center;
     } */
+
+    .portfolio__item{
+      margin: 25px;
+    }
 }
 
 @media screen and (min-width:768px){
