@@ -1028,6 +1028,12 @@ img {
   }
 }
 
+@media screen and (max-width: 420px) {
+  .project__img {
+    width: 200px;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home__content {
@@ -1264,5 +1270,9 @@ img {
 
   .footer__container {
     padding: 3rem 0;
+  }
+
+  .project__img {
+    width: 300px;
   }
 }
