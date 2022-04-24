@@ -1206,7 +1206,11 @@ img {
     column-gap: 3rem;
   }
   .project__data {
-    padding-top: 0.8rem;
+    padding-top: 1.8rem;
+  }
+
+  .project__img {
+    width: 280px;
   }
 }
 
@@ -1273,6 +1277,6 @@ img {
   }
 
   .project__img {
-    width: 300px;
+    width: 280px;
   }
 }
