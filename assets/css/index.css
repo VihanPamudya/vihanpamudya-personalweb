@@ -1028,12 +1028,6 @@ img {
   }
 }
 
-@media screen and (max-width: 420px) {
-  .project__img {
-    width: 200px;
-  }
-}
-
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home__content {
@@ -1206,11 +1200,7 @@ img {
     column-gap: 3rem;
   }
   .project__data {
-    padding-top: 1.8rem;
-  }
-
-  .project__img {
-    width: 280px;
+    padding-top: 0.8rem;
   }
 }
 
@@ -1274,9 +1264,5 @@ img {
 
   .footer__container {
     padding: 3rem 0;
-  }
-
-  .project__img {
-    width: 280px;
   }
 }
